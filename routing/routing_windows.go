@@ -150,9 +150,6 @@ func getAdaptersAddresses(family uint32, flags uint32, reserved uintptr, adapter
 
 func getBestRoute(dst net.IP, bestRoute *mibIPForwardRow2, bestSourceAddress *socketAddrInet) error {
 
-	var null uint32
-	null = 0
-
 	var addrPtr uintptr
 	switch len(dst) {
 	case net.IPv4len:
@@ -172,11 +169,11 @@ func getBestRoute(dst net.IP, bestRoute *mibIPForwardRow2, bestSourceAddress *so
 	}
 
 	ret, _, _ := getBestRoute2Proc.Call(
-		uintptr(unsafe.Pointer(&null)),
-		uintptr(unsafe.Pointer(&null)),
-		uintptr(unsafe.Pointer(&null)),
+		0,
+		0,
+		0,
 		addrPtr,
-		uintptr(unsafe.Pointer(&null)),
+		0,
 		uintptr(unsafe.Pointer(bestRoute)),
 		uintptr(unsafe.Pointer(bestSourceAddress)))
 
