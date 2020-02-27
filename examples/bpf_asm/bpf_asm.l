@@ -100,7 +100,7 @@ import "os"
 
 import "github.com/docopt/docopt-go"
 
-import "github.com/ghedo/go.pkt/filter"
+import "github.com/aporeto-inc/gopkt/filter"
 
 var bld *filter.Builder
 

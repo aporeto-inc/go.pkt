@@ -8,12 +8,12 @@ import "github.com/docopt/docopt-go"
 
 import "github.com/songgao/water"
 
-import "github.com/ghedo/go.pkt/packet"
-import "github.com/ghedo/go.pkt/packet/ipv6"
-import "github.com/ghedo/go.pkt/packet/icmpv6"
-import "github.com/ghedo/go.pkt/packet/tcp"
-import "github.com/ghedo/go.pkt/packet/udp"
-import "github.com/ghedo/go.pkt/layers"
+import "github.com/aporeto-inc/gopkt/packet"
+import "github.com/aporeto-inc/gopkt/packet/ipv6"
+import "github.com/aporeto-inc/gopkt/packet/icmpv6"
+import "github.com/aporeto-inc/gopkt/packet/tcp"
+import "github.com/aporeto-inc/gopkt/packet/udp"
+import "github.com/aporeto-inc/gopkt/layers"
 
 func main() {
     log.SetFlags(0)

@@ -34,7 +34,7 @@ package tcp
 import (
 	"strings"
 
-	"github.com/ghedo/go.pkt/packet"
+	"github.com/aporeto-inc/gopkt/packet"
 )
 
 type Packet struct {

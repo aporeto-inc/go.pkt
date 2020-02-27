@@ -35,7 +35,7 @@ import "fmt"
 import "net"
 import "strings"
 
-import "github.com/ghedo/go.pkt/packet"
+import "github.com/aporeto-inc/gopkt/packet"
 
 type Packet struct {
     Version     uint8

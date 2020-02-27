@@ -35,7 +35,7 @@ package eth
 import "fmt"
 import "net"
 
-import "github.com/ghedo/go.pkt/packet"
+import "github.com/aporeto-inc/gopkt/packet"
 
 type Packet struct {
     DstAddr     net.HardwareAddr `string:"dst"`

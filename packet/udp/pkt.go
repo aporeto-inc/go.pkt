@@ -31,8 +31,8 @@
 // Provides encoding and decoding for UDP packets.
 package udp
 
-import "github.com/ghedo/go.pkt/packet"
-import "github.com/ghedo/go.pkt/packet/ipv4"
+import "github.com/aporeto-inc/gopkt/packet"
+import "github.com/aporeto-inc/gopkt/packet/ipv4"
 
 type Packet struct {
     SrcPort     uint16        `string:"sport"`

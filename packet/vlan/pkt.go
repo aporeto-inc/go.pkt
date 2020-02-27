@@ -31,8 +31,8 @@
 // Provides encoding and decoding for VLAN packets.
 package vlan
 
-import "github.com/ghedo/go.pkt/packet"
-import "github.com/ghedo/go.pkt/packet/eth"
+import "github.com/aporeto-inc/gopkt/packet"
+import "github.com/aporeto-inc/gopkt/packet/eth"
 
 type Packet struct {
     Priority     uint8         `string:"prio"`

@@ -38,19 +38,19 @@ import "time"
 
 import "github.com/docopt/docopt-go"
 
-import "github.com/ghedo/go.pkt/capture/pcap"
+import "github.com/aporeto-inc/gopkt/capture/pcap"
 
-import "github.com/ghedo/go.pkt/packet"
-import "github.com/ghedo/go.pkt/packet/eth"
-import "github.com/ghedo/go.pkt/packet/icmpv4"
-import "github.com/ghedo/go.pkt/packet/ipv4"
-import "github.com/ghedo/go.pkt/packet/raw"
-import "github.com/ghedo/go.pkt/packet/tcp"
-import "github.com/ghedo/go.pkt/packet/udp"
+import "github.com/aporeto-inc/gopkt/packet"
+import "github.com/aporeto-inc/gopkt/packet/eth"
+import "github.com/aporeto-inc/gopkt/packet/icmpv4"
+import "github.com/aporeto-inc/gopkt/packet/ipv4"
+import "github.com/aporeto-inc/gopkt/packet/raw"
+import "github.com/aporeto-inc/gopkt/packet/tcp"
+import "github.com/aporeto-inc/gopkt/packet/udp"
 
-import "github.com/ghedo/go.pkt/layers"
-import "github.com/ghedo/go.pkt/network"
-import "github.com/ghedo/go.pkt/routing"
+import "github.com/aporeto-inc/gopkt/layers"
+import "github.com/aporeto-inc/gopkt/network"
+import "github.com/aporeto-inc/gopkt/routing"
 
 func main() {
     log.SetFlags(0)
