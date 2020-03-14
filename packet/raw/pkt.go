@@ -33,7 +33,7 @@ package raw
 
 import "fmt"
 
-import "github.com/aporeto-inc/gopkt/packet"
+import "github.com/ghedo/go.pkt/packet"
 
 type Packet struct {
     Data   []byte `string:"skip"`

@@ -33,8 +33,8 @@ package file_test
 import "log"
 import "testing"
 
-import "github.com/aporeto-inc/gopkt/capture/file"
-import "github.com/aporeto-inc/gopkt/filter"
+import "github.com/ghedo/go.pkt/capture/file"
+import "github.com/ghedo/go.pkt/filter"
 
 func TestCapture(t *testing.T) {
     src, err := file.Open("capture_test.pcap")

@@ -36,12 +36,12 @@ import "time"
 
 import "github.com/docopt/docopt-go"
 
-import "github.com/aporeto-inc/gopkt/capture/pcap"
-import "github.com/aporeto-inc/gopkt/packet/eth"
-import "github.com/aporeto-inc/gopkt/packet/arp"
+import "github.com/ghedo/go.pkt/capture/pcap"
+import "github.com/ghedo/go.pkt/packet/eth"
+import "github.com/ghedo/go.pkt/packet/arp"
 
-import "github.com/aporeto-inc/gopkt/network"
-import "github.com/aporeto-inc/gopkt/routing"
+import "github.com/ghedo/go.pkt/network"
+import "github.com/ghedo/go.pkt/routing"
 
 func main() {
     log.SetFlags(0)

@@ -40,8 +40,8 @@ import "C"
 import "fmt"
 import "unsafe"
 
-import "github.com/aporeto-inc/gopkt/filter"
-import "github.com/aporeto-inc/gopkt/packet"
+import "github.com/ghedo/go.pkt/filter"
+import "github.com/ghedo/go.pkt/packet"
 
 type Handle struct {
     Device string

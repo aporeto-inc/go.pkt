@@ -33,22 +33,22 @@
 // decode complete "stacks" of packets, instead of manipulating single ones.
 package layers
 
-import "github.com/aporeto-inc/gopkt/packet"
+import "github.com/ghedo/go.pkt/packet"
 
-import "github.com/aporeto-inc/gopkt/packet/arp"
-import "github.com/aporeto-inc/gopkt/packet/eth"
-import "github.com/aporeto-inc/gopkt/packet/icmpv4"
-import "github.com/aporeto-inc/gopkt/packet/icmpv6"
-import "github.com/aporeto-inc/gopkt/packet/ipv4"
-import "github.com/aporeto-inc/gopkt/packet/ipv6"
-import "github.com/aporeto-inc/gopkt/packet/llc"
-import "github.com/aporeto-inc/gopkt/packet/radiotap"
-import "github.com/aporeto-inc/gopkt/packet/raw"
-import "github.com/aporeto-inc/gopkt/packet/sll"
-import "github.com/aporeto-inc/gopkt/packet/snap"
-import "github.com/aporeto-inc/gopkt/packet/tcp"
-import "github.com/aporeto-inc/gopkt/packet/udp"
-import "github.com/aporeto-inc/gopkt/packet/vlan"
+import "github.com/ghedo/go.pkt/packet/arp"
+import "github.com/ghedo/go.pkt/packet/eth"
+import "github.com/ghedo/go.pkt/packet/icmpv4"
+import "github.com/ghedo/go.pkt/packet/icmpv6"
+import "github.com/ghedo/go.pkt/packet/ipv4"
+import "github.com/ghedo/go.pkt/packet/ipv6"
+import "github.com/ghedo/go.pkt/packet/llc"
+import "github.com/ghedo/go.pkt/packet/radiotap"
+import "github.com/ghedo/go.pkt/packet/raw"
+import "github.com/ghedo/go.pkt/packet/sll"
+import "github.com/ghedo/go.pkt/packet/snap"
+import "github.com/ghedo/go.pkt/packet/tcp"
+import "github.com/ghedo/go.pkt/packet/udp"
+import "github.com/ghedo/go.pkt/packet/vlan"
 
 // Compose packets into a chain and update their values (e.g. length, payload
 // protocol) accordingly.

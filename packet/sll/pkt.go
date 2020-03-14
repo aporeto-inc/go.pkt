@@ -33,8 +33,8 @@ package sll
 
 import "net"
 
-import "github.com/aporeto-inc/gopkt/packet"
-import "github.com/aporeto-inc/gopkt/packet/eth"
+import "github.com/ghedo/go.pkt/packet"
+import "github.com/ghedo/go.pkt/packet/eth"
 
 type Packet struct {
     Type        Type
